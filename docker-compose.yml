@@ -1,0 +1,21 @@
+version: '3'
+services: 
+  backend:
+    container_name: backend_service
+    build: './urc-backend'
+    ports:
+      - "3000:3000"
+    # depends_on:
+    #   - mongo 
+
+  # client:
+  #   container_name: frontend_client
+  #   build: './urc-frontend'
+  #   ports:
+  #     - "8000:8000"
+
+  # mongo:
+  #   container_name: mongodb_database
+  #   build: './urc-backend/db'
+  #   ports:
+  #     - "27017:27017"

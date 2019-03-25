@@ -1,0 +1,6 @@
+[submodule "urc-frontend"]
+	path = urc-frontend
+	url = git@github.com:mehdi-alouane/urc-frontend.git
+[submodule "urc-backend"]
+	path = urc-backend
+	url = git@github.com:mehdi-alouane/urc-backend.git
